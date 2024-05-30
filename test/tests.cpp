@@ -29,12 +29,12 @@ TEST(nPrime, checkWrongValue) {
     EXPECT_EQ(0, nPrime(0));
 }
 
-TEST(nPrime, check_large_value) {
+TEST(nPrime, checkLarge_Value) {
     EXPECT_EQ(3559, nPrime(499));
 }
 
 TEST(nextPrime, checkWorks) {
-    EXPECT_EQ(33, nextPrime(11));
+    EXPECT_EQ(7, nextPrime(5));
 }
 
 TEST(nextPrime, checkLargeValue) {
